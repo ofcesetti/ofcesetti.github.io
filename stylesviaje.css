@@ -1,0 +1,247 @@
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+
+
+body{
+  width: 100%;
+  margin: auto;
+/*   background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,0.6881127450980392) 0%, rgba(9,9,121,0.30155812324929976) 35%, rgba(0,212,255,0.3491771708683473) 100%); */
+
+}
+
+header{
+  margin: 0;
+  padding: 20px;
+  /* background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(253, 253, 253) 55%, rgba(143, 170, 206, 0.603) 100%); */
+}
+
+
+
+.contenedor-logos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-cesetti{
+  display: inline;
+}
+
+.logo-geotab{
+  display: inline;
+  
+}
+
+.logo-geotab img{
+  width: 260px;
+}
+
+.uk-parent, .uk-active{
+  display: inline;
+}
+
+form.search{
+  width: 90%;
+}
+
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  /* background: rgba(143, 170, 206, 0.603); */
+}
+
+.datos-basicos{
+  display: inline-block;
+  width: 30%;
+  min-width: 268px;
+  margin: 10px;
+}
+
+.datos-basicos-form{
+  /* background-color: rgba(153, 153, 153, 0.151); */
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.items-evaluar{
+  display: inline-block;
+  width:60%;
+  min-width: 265px;
+  margin: 10px;
+}
+
+.instructivo-descripcion {
+  /* background-color: rgba(255, 255, 255, 0.315); */
+  width: auto;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.instructivo-descripcion img {
+  /* background-color: rgba(255, 255, 255, 0.315); */
+  width: 95%;
+  display: block;
+}
+
+.instructivo-descripcion img.mediana{
+  width: 60%;
+  display: block;
+}
+
+.instructivo-descripcion img.mediana1{
+  width: 40%;
+  display: block;
+}
+
+.instructivo-descripcion img.pequeña{
+  width: 5%;
+  float:left;
+}
+
+.instructivo-descripcion text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.riesgos{
+  
+  width: 43%;
+  min-width: 180px;
+  margin: 0;
+  padding: 20px;
+  margin: 0 0 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.puntaje{
+  
+  width: 44%;
+  min-width: 180px;
+  margin: 0;
+  padding: 15px;
+  margin: 0 0 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  display: block;
+
+}
+
+.puntaje-item{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.puntaje-item p{
+  margin: 5px;
+  padding: 0;
+}
+
+h4, h1{
+  margin: 0;
+}
+
+
+.items-evaluar-form ul{
+  padding: 0;
+}
+
+.nombre{
+  padding-bottom: 40px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  display: block;
+}
+
+select, input{
+  background-color: rgba(255, 255, 255, 0.705);
+}
+
+.riesgos label{
+  height: 50px;
+}
+
+h6{
+  margin: 5px;
+}
+
+input[name="name"], input[type="email"], input[type="date"], select, textarea {
+  padding: 5px;
+  font-size: 14px;
+  border: 2px solid rgb(23, 10, 97);
+  border-radius: 5px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+input[name="time"]{
+  margin-bottom: 20px;
+}
+
+.fecha{
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 40px;
+  width: 200px;
+}
+
+
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.puntaje-item{
+  font-weight: bold;
+}
+
+.puntaje-item-bajo{
+  background-color: rgba(169, 255, 152, 0.603);
+}
+
+.puntaje-item-medio{
+  background-color: rgba(255, 221, 128, 0.603);
+}
+
+.puntaje-item-alto{
+  background-color: rgba(255, 96, 96, 0.603);
+}
+
+.puntaje-item-extremo{
+  background-color: rgba(255, 0, 0, 0.829);
+  color: white;
+  font-size: larger;
+}
+
+footer{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(143, 170, 206, 0.603);
+}

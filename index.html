@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesviaje.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="datos-basicos">
+
+            <form class="datos-basicos-form" id="datos-basicos-form">
+                <h1>Próximos cambios</h1>
+                <h2>Fecha Estimada</h2>
+                <div>
+                    <h5></h5>
+                    <p></p>
+                </div>
+            </form><br>
+
+            <form class="datos-basicos-form" id="datos-basicos-form">
+                <h1>Cambios realizados</h1>
+                <h2>Fecha</h2>
+                <div>
+                    <h5>02/10/2023</h5>
+                    <p>Se actualiza la regla No uso del cinturón</p>
+
+                 <!--   <h5>15/07/2023</h5>
+                    <p>CAMBIO 2</p>
+
+                    <h5>14/07/2023</h5>
+                    <p>CAMBIO 3</p> -->
+                </div>
+            </form>
+
+        </div>
+
+        <div class="items-evaluar">
+            <form class="instructivo-descripcion" id="carga_usuarios">
+                <h1>Carga de Usuarios</h1>
+                <ol>
+                    <h2>
+                        <li>Usuario administrativo, no conductor.</li>
+                    </h2>
+
+                    <div>
+                        <p> Personas &rarr; Usuarios y conductores &rarr; Añadir </p>
+                        <img src="images/Carga_de_usuarios_1.png" alt="CARGA DE USUARIOS">
+                        <p> <b>Usuario:</b> puede ser una dirección de correo electrónico o un nombre de usuario
+                            personalizado.</p>
+                        <p> <b>Completar nombre y apellido.</b> </p>
+                        <p> <b>Tipo de autenticación:</b> no se modifica. </p>
+                        <p> <b>Forzar cambio de contraseña en el siguiente inicio de sesión:</b> si el usuario se da de
+                            alta
+                            con correo electrónico, dejar opción en “SI”, pero si se eligió un nombre de usuario
+                            personalizado, cambiar opción a “NO” y establecer una contraseña. </p>
+                        <p> <b>Autorización de seguridad:</b> elegir según corresponda. </p>
+
+                        <p>&emsp;&emsp;&rarr; <b>Administrador:</b> Empleados Quilmes central.</p>
+
+                        <p>&emsp;&emsp;&rarr; <b>Supervisor Quilmes: </b> Empleados Quilmes basados en CDs.</p>
+
+                        <p>&emsp;&emsp;&rarr; <b>Supervisor Transportista: </b> Supervisores OL.</p>
+
+                        <p> <b>Grupos:</b> Elegir el grupo al que tendrá acceso el usuario. Puede ser a un CD completo o
+                            a un OL
+                            en particular.
+                            Los CD están divididos por localidad y los OL por razón social. <br><br>
+                            Los campos siguientes, son opcionales y pueden incluir datos como DNI, número de legajo,
+                            teléfono, etc. </p>
+
+                        <p><b>Finalmente: Ir al principio de la página y "GUARDAR"</b></p>
+
+                    </div>
+
+                    <h2>
+                        <li>Usuario administrativo y conductor (con llave NFC).</li>
+                    </h2>
+
+                    <div>
+                        <p>Completar todos los campos indicados anteriormente pero antes de guardar pasar a la pestaña
+                            “Conductor”. </p>
+                        <img src="images/Carga_de_usuarios_2.png" alt="CARGA DE USUARIOS">
+
+                        <p>&emsp;&emsp;&rarr; Este usuario es un conductor: <b>SI</b>.</p>
+                        <p>&emsp;&emsp;&rarr; Impedir que el conductor acceda a datos compartidos: <b>NO</b>.</p>
+                        <p> <b>Clave:</b> clickear en “Añadir una nueva llave del conductor” &rarr; Seleccionar “NFC
+                            personalizado” &rarr; Completar código de llave (brindado por Cesetti Comunicaciones) &rarr;
+                            Presionar
+                            tilde azul.</p>
+                        <img src="images/Carga_de_usuarios_3.png" alt="CARGA DE USUARIOS">
+                        <p><b>Grupo Base:</b> Igual que el acceso a los datos &rarr; SI</p>
+                        <p><b>Opcional:</b> pueden completar información como el número de licencia de conducir:</p>
+                        <img src="images/Carga_de_usuarios_4.png" alt="CARGA DE USUARIOS">
+                        <p>Subir y <b>GUARDAR</b></p>
+
+                    </div>
+
+                    <h2>
+                        <li>Usuario conductor.</li>
+                    </h2>
+                    <p>&emsp;&emsp;&rarr; Personas &rarr; Usuarios y conductores &rarr; “Añadir</p>
+                    <img src="images/Carga_de_usuarios_1.png" alt="CARGA DE USUARIOS">
+                    <p> &emsp; &rarr; <b>Usuario:</b> puede ser una dirección de correo electrónico o un nombre de
+                        usuario
+                        personalizado.</p>
+                    <p> &emsp; &rarr; Completar nombre y apellido.</p>
+                    <p> &emsp; &rarr; <b>Forzar cambio de contraseña en el siguiente inicio de sesión:</b> si el usuario
+                        se
+                        da de alta con correo electrónico, dejar opción en <b>"SI"</b>, pero si se eligió un nombre de
+                        usuario
+                        personalizado, cambiar opción a <b>"NO"</b> y establecer una contraseña. </p>
+                    <p> &emsp; &rarr; <b>Autorización de seguridad:</b> Seleccionar “Usuario de Drive App”.</p>
+                    <p> &emsp; &rarr; <b>Grupos:</b> Elegir el grupo para el cual conducirá el chofer. Puede ser un CD
+                        completo o un OL en particular. Los CD están divididos por localidad y los OL por razón social.
+                    </p>
+                    <p> &emsp; &rarr; Los campos siguientes son opcionales, pueden incluir datos como DNI o número de
+                        legajo,
+                        teléfono, etc.</p>
+                    <p> &emsp; &rarr; Subir y pasar a la pestaña “Conductor”.</p>
+                    <img src="images/Carga_de_usuarios_2.png" alt="CARGA DE USUARIOS">
+                    <p>&emsp;&emsp;&rarr; Este usuario es un conductor: <b>SI</b>.</p>
+                    <p>&emsp;&emsp;&rarr; Impedir que el conductor acceda a datos compartidos: <b>NO</b>.</p>
+                    <p> <b>Clave:</b> clickear en “Añadir una nueva llave del conductor” &rarr; Seleccionar “NFC
+                        personalizado” &rarr; Completar código de llave (brindado por Cesetti Comunicaciones) &rarr;
+                        Presionar
+                        tilde azul.</p>
+                    <img src="images/Carga_de_usuarios_3.png" alt="CARGA DE USUARIOS">
+                    <p><b>Grupo Base:</b> Igual que el acceso a los datos &rarr; SI</p>
+                    <p><b>Opcional:</b> pueden completar información como el número de licencia de conducir:</p>
+                    <img src="images/Carga_de_usuarios_4.png" alt="CARGA DE USUARIOS">
+                    <p>Subir y <b>GUARDAR</b></p>
+                </ol>
+
+
+
+            </form>
+
+            <form class="instructivo-descripcion" id="mapa">
+                <h1>Mapa</h1>
+                <ol>
+                    <h2>
+                        <li>Visualización de vehículos en tiempo real.</li>
+                    </h2>
+
+                    <div>
+                        <p>&rarr; <b>Mapa</b> &rarr; Mapa </p>
+                        <p>&rarr; Seleccionar los vehículos que se desean ver </p>
+
+                        <img src="images/Mapa_01.png" alt="CARGA DE USUARIOS">
+
+                        <p>&rarr; Cuanto más alejada esté la vista del mapa, menos vehículos se verán y aparecerán
+                            agrupados
+                            (por eso los círculos con números). Para ver el detalle de los vehículos deberán hacer zoom
+                            sobre el
+                            mapa. </p>
+                        <p>&rarr; Los vehículos se verán: </p>
+
+                        <img class="pequeña" src="images/Mapa_02.png" alt="Mapa" />
+                        <p id="text">&nbsp;&nbsp;&nbsp;SI ESTÁ CONDUCIENDO. Al posicionarme sobre él podré ver quién
+                            conduce, dónde,
+                            a qué velocidad, cuál es la velocidad máxima del lugar y los datos del vehículo. El
+                            triángulo indica
+                            la dirección de circulación. </p>
+                        <img class="mediana" src="images/Mapa_03.png" alt="Mapa"><br />
+
+                        <img class="pequeña" src="images/Mapa_04.png" alt="Mapa" />
+                        <p id="text">&nbsp;&nbsp;&nbsp;SI EL VEHÍCULO ESTÁ DETENIDO. Al posicionarme sobre él podré ver
+                            cuándo se detuvo allí, la dirección o coordenadas según corresponda, cuál es la velocidad
+                            máxima del
+                            lugar y los datos del vehículo.</p>
+                        <img class="mediana" src="images/Mapa_05.png" alt="Mapa"><br />
+
+                        <img class="pequeña" src="images/Mapa_06.png" alt="Mapa" />
+                        <p id="text">&nbsp;&nbsp;&nbsp;VEHÍCULO SIN CONEXIÓN. Puede ser porque no haya cobertura celular
+                            en
+                            la zona, porque el vehículo tiene la energía cortada o porque se desconectó el dispositivo
+                            de rastreo.
+                            Al posicionarme sobre él podré ver cuándo fue la última
+                            vez que reportó, la ubicación y los datos de vehículo.</p>
+                        <img class="mediana" src="images/Mapa_07.png" alt="Mapa"><br />
+
+                        <h2>
+                            <li>Opciones de mapa.</li>
+                        </h2>
+                        <p>&rarr;Clickear el ícono de capas ubicado en la esquina inferior derecha del
+                            mapa (1)</p>
+                        <img src="images/Mapa_08.png" alt="Mapa"><br />
+
+
+                        <h2>
+                            <li>Historial de viajes.</li>
+                        </h2>
+
+                        <p> → Mapa → Historial de viajes → Filtros</p>
+                        <img src="images/Mapa_09.png" alt="Mapa"><br />
+                        <img src="images/Mapa_10.png" alt="Mapa"><br />
+                        <img src="images/Mapa_11.png" alt="Mapa"><br />
+
+                        <p> → Visualización de viajes:</p>
+                        <p>&nbsp;&nbsp;&nbsp;• Viaje = Ignición ON - Trayecto - Ignición OFF.</p>
+                        <p>&nbsp;&nbsp;&nbsp;• El primer registro siempre mostrará el último
+                            viaje realizado antes del rango de fechas seleccionado. </p>
+                        <img src="images/Mapa_12.png" alt="Mapa"><br />
+                        <p>&nbsp;&nbsp;&nbsp;• Al seleccionar cada uno de ellos nos aparecerá el
+                            trayecto en el mapa, identificados con el número de parada: “Detener #1”, “Detener #2”, etc.
+                        </p>
+                        <img src="images/Mapa_13.png" alt="Mapa"><br />
+                        <p>&nbsp;&nbsp;&nbsp;• En caso de haberse cometido infracciones durante el viaje, se
+                            identificarán
+                            con un triángulo de color, generalmente rojo: </p>
+                        <img src="images/Mapa_14.png" alt="Mapa"><br />
+                        <p>&nbsp;&nbsp;&nbsp;• Posicionarnos sobre el trayecto de color rojo o sobre el triángulo de
+                            alerta nos permitirá ver el detalle de esa infracción. </p>
+                </ol>
+            </form>
+
+            <form class="instructivo-descripcion" id="zonas">
+                <h1>Zonas y Geocercas</h1>
+
+                <ol>
+                    <li>
+                        <h2>Tipos de zonas</h2>
+                    </li>
+
+                    <p>Antes de generar una zona hay que definir qué tipo de zona será para que las reglas,
+                        alarmas o reportes se le apliquen automáticamente. Ej.: Si tenemos una zona que corresponde
+                        un CD, el tipo de zona será “Base 10km/h” o “Base 20km/h” según corresponda el límite de
+                        velocidad de circulación que tiene. Si tienen dudas respecto al tipo de zona que
+                        corresponde por favor contactar a
+                        <a href="https://geotab-cesetti.atlassian.net/servicedesk/customer/portal/2"
+                            title="Soporte Geotab" target="_blank" HtmlMasters>Soporte</a>.
+                    </p>
+                    <p>
+                    <h4>Para crear tipos de zonas:</h4>
+                    </p>
+                    <p> → Mapa → Zonas → Tipos de zonas → Añadir </p>
+                    <img src="images/Zonas_01.png" alt="Zonas">
+                    <p>→ Crear nombre. (Opcional: ingresar comentarios.) </p>
+                    <p>→ Guardar. </p>
+
+                    <li>
+                        <h2>Zonas o Geocercas</h2>
+                    </li>
+
+                    <p>Una vez identificado el tipo de geocerca, volver al mapa y seleccionar “Añadir Zona”.</p>
+                    <img src="images/Zonas_02.png" alt="Zonas">
+                    <p> → Darle la forma deseada a la geocerca colocando puntos en el mapa, para finalizar cerrar
+                        clickeando en el primer punto: </p>
+                    <img src="images/Zonas_03.png" alt="Zonas">
+                    <p>→ Nombrar geocerca (1), seleccionar el grupo de usuarios que podrá verla (2), elegir
+                        tipo de zona (3). Pasar a la vista del mapa y configurar color + transparencia (4).
+                        Guardar (5): </p>
+                    <img src="images/Zonas_04.png" alt="Zonas">
+                </ol>
+            </form>
+
+            <form class="instructivo-descripcion" id="reporteria">
+                <h1>Reportes</h1>
+                <ol>
+                    
+                        <h2>Panel de gráficos</h2>
+
+                    <p>El panel podrá diferir de usuario a usuario ya que todos pueden agregar o quitar
+                        reportes a elección. Los reportes fijos serán los que establezca el personal autorizado
+                        de Cervecería y Maltería Quilmes SAICA y G., por ejemplo: </p>
+                    <p>• Viajes: muestra los viajes realizados ayer que salieron de una CD y volvieron a un CD. </p>
+                    <p>• Kilómetros totales mes pasado. </p>
+                    <p>Clickear cualquier reporte para descargarlo automáticamente en forma de Excel. </p>
+                    <p><i>** Para agregar reportes contactar a soporte **</i></p>
+
+                    
+                        <h2>Instructivo reporte Detalle de todas las infracciones. </h2>
+
+                    
+                    <p>→ Grupos y reglas (1) → Excepciones (2) → Opciones (3)
+                        Seleccionar fecha requerida predeterminada o Personalizado (4)</p>
+                    <img src="images/Reportes_03.png" alt="reporteria">
+
+                    <p>→ Luego hacer click en Reporte (5) → Detalle (6) → Detalle de todas las infracciones (7)</p>
+                    <img src="images/Reportes_04.png" alt="reporteria">
+                    <p>→ Ante la aparición de esta ventana emergente, seleccionar <b>Usar las opciones
+                            predeterminadas</b></p>
+                    <img class="mediana" src="images/Reportes_05.png" alt="reporteria">
+                    <p>→ Una vez descargado el reporte, se deberá hacer click en la pestaña <b>Datos</b> y seguidamente
+                        en <b>Actualizar todo</b>.</p>
+                    <img src="images/Reportes_06.png" alt="reporteria">
+                    <p>→ Si salta un aviso de seguridad de Microsoft Excel como el motrado a continuación,
+                        hacer click en <b>Aceptar</b>.</p>
+
+                    <p><i>*** Este aviso se debe a que la hoja actual del reporte tiene conexión interna con
+                        los datos que se muestran y con el fin de poder visualizar la totalidad de la
+                        información descargada, se necesita efectuar dicha actualización. Esto no significa un
+                        problema de seguridad para el archivo ni el equipo, solamente es una advertencia
+                        precautoria de Microsoft.***</i></p>
+                    <img class="mediana" src="images/Reportes_07.png" alt="reporteria">
+
+                    <p>Una vez actualizados los datos del reporte, se podrá filtrar las excepciones (infracciones): </p>
+                    <img src="images/Reportes_08.png" alt="reporteria">
+
+                
+                    <h2>Instructivo reporte Viajes. </h2>
+                
+
+                    <p>1.	En el menú lateral izquierdo bajar hasta <b>Grupos y reglas</b> y hacer click en <b>+</b> para desplegar.</p>
+                    <p>2.	Seleccionar la pestaña <b>Excepciones</b>.</p>
+                    <p>3.	Se abrirá la ventana de Excepciones; aquí se deberá hacer click en <b>Opciones</b> y luego seleccionar la fecha o periodo de fechas.</p>
+
+                    <img src="images/Viajes_1.png" alt="reporteria">
+
+                    <p>4.	Click en el botón <b>Reporte▼</b>.</p>
+                    <p>2.	Luego, clic en <b>Detalles</b>.</p>
+                    <p>3.	Finalmente hacer clic en <b>VIAJES</b>.</p>
+                    <img src="images/Viajes_2.png" alt="reporteria">
+
+
+                    <h2>Instructivo reporte de Ralenti. </h2>
+                
+                    <p>1.	En el menú lateral izquierdo, desplegar la pestaña <b>Productividad</b>.</p>
+                    <p>2.	Seleccionar el ítem <b>Historial de viajes</b>.</p>
+                    <img src="images/Ralenti_01.png" alt="reporteria">
+
+                    <p>3.	Se abrirá la ventana de <b>Historial de viajes</b>; aquí se debe hacer clic en el botón <b>Resumen</b> que se encuentra en la cinta de opciones superior. </p>
+                    <img src="images/Ralenti_02.png" alt="reporteria">
+
+                    <p>** Se puede simplificar desde el paso 1 hasta el 3, escribiendo la palabra “Resumen” en el buscador situado en la parte superior del menú lateral izquierdo,
+                        seleccionando la opción <b>Resumen de viajes</b> que aparecerá dentro de la pestaña <b>Mapa</b> del menú.</p>
+                    <img src="images/Ralenti_03.png" alt="reporteria">
+                    <p>4.	Al entrar en <b>Resumen de viajes</b> veremos en primer lugar la ventana desplegada de opciones. Aquí, debemos colocar los siguientes datos:
+                    <ul>
+                        <p>-    <b>Periodo de fechas</b>: seleccionar la fecha interesada </p>
+                        <p>-	<b>Incluir datos archivados</b>: Desactivar</p>
+                        <p>-	<b>Ver por</b>: Vehículo</p>
+                        <p>-	<b>Ignorar paradas inferiores a</b>: 5 minutos</p>
+                        <p>-	<b>Esconder las líneas que indican una distancia cero</b>: Si</p>
+                        <p> <i> No es necesario hacer clic en el botón Aplicar cambios</i>.</p>
+                    </ul>
+                    <img src="images/Ralenti_04.png" alt="reporteria">
+                    <p>5.	Luego de definir las opciones indicadas en el paso anterior, hacer clic en el botón <b>Reporte</b> y luego descargar el reporte <b>QUILMES – REPORTE DE RALENTI</b>.</p>
+                    </p><img src="images/Ralenti_05.png" alt="reporteria">
+                    
+                    <h2>Instructivo Recordatorio de Mantenimiento. </h2>
+                
+                    <p>1.	En el menú lateral izquierdo, seleccionar la opción <b>Mantenimiento > Recordatorios</b>.</p>
+                    <p>2.	Hacer clic en el botón <b>Agregar recordatorio</b>.</p>
+                    <img src="images/Mantenimiento_01.png" alt="reporteria">
+                    <p><i>** Se puede simplificar los pasos mencionados, escribiendo la palabra “Recordatorio” en el buscador situado en la parte superior del menú lateral izquierdo y seleccionar directamente la
+                         pestaña <b>Recordatorios</b></i>.</p>
+                    <img class="mediana1" src="images/Mantenimiento_02.png" alt="reporteria">
+                    <p>3.	Ingresar el <b>nombre del recordatorio</b>.</p>
+                    <p>4.	Desplegar la lista y seleccionar el <b>tipo de mantenimiento</b>. En el caso que el tipo de mantenimiento no se encuentre en la lista, se puede agregar haciendo clic en <b>Añadir nuevo
+                         tipo de mantenimiento</b>.</p>
+                    <p>5.	Seleccionar el modo de <b>frecuencia de repetición</b> del recordatorio.</p>
+                    <p>6.	De acuerdo al modo de frecuencia de repetición seleccionado, se deberá colocar el valor de la frecuencia del  recordatorio (Ej: si es un service cada ciertos km, colocar 10000 o el valor
+                         que corresponde).</p>
+                    <img src="images/Mantenimiento_03.png" alt="reporteria">
+                    <p>7.	Hacer clic en la pestaña <b>Agregar activos</b>.</p>
+                    <p>8.	Desplegar la lista y seleccionar los activos a adjuntar en el recordatorio.</p>
+                    <img src="images/Mantenimiento_04.png" alt="reporteria">
+                    <p>9.	Para cada activo: 
+                    <ul>
+                        <p>a) Seleccionar la <b>fecha del último mantenimiento</b>.</p>
+                        <p>b) Ingresar la lectura del <b>odómetro</b> en ese momento.</p>
+                        <p>c) <u>Opcional</u>: Ingresar la lectura de horas del motor en ese momento.</p>
+                        <p>d) Haga clic en el botón <b>Guardar</b> en la columna <b>Acciones</b>.</p>
+                        <p><i><u>NOTA</u>: No puede cambiar el historial de servicio del vehículo una vez establecido, así que asegúrese de tener a mano sus registros de servicio más recientes</i>.</p>
+                    </ul>
+                        <img src="images/Mantenimiento_05.png" alt="reporteria">
+                    
+                    <p>10.	Haga clic en la pestaña <b>Notificaciones</b>.</p>
+                    <p>11.	Seleccione el <b>Tipo de notificación</b> generada por el recordatorio.</p>
+                    <p>12.	Seleccione los <b>destinatarios</b> correspondientes para el recordatorio, si es necesario.</p>
+                    <p>13.	Establezca las condiciones para activar la notificación de recordatorio <i>(Ej: si el mantenimiento se trata de un Service de 10000km, la notificación
+                         puede ser 1000 km antes de la fecha de vencimiento; luego se puede configurar una nueva notificación y establecer a los 500 km antes)</i>.</p>
+                    <p>14.	Clic en <b>Añadir</b>.</p>
+                    <img src="images/Mantenimiento_06.png" alt="reporteria">
+                    <p>15.	Una vez terminado, haga clic en el botón <b>Guardar</b>.</p>
+                    <img src="images/Mantenimiento_07.png" alt="reporteria">
+
+                </ol>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
